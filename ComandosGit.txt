@@ -1,0 +1,39 @@
+Crear repositorio local:
+ git init
+
+Crear repositorio remoto:
+1. Ir a https://github.com/new y darle un nombre al repositorio
+2. Copiar el link del repositorio y seguir al siguiente paso
+
+ Vincular repositorio local con remoto:
+git remote add origin https://github.com/LuDev01/"Nombre del repositorio.git
+
+Paso adicional: 
+De no tener vinculadas las credenciales de github hacer lo siguiente
+git config user.name "NombreUsuarioGit"
+git config user.email "MailVinculadoGit"
+
+Para que los cambios se hagan para todos los archivos de ahora en adelante, hacer:
+git config --global user.name "NombreUsuarioGit"
+git config --global user.email "MailVinculadoGit"
+
+Crear un archivo nuevo desde la terminal:
+touch "NombreArchivo".Extension Ejm: touch Prueba.js , index.html
+
+Subir cambios de los archivos/cambios realizados:
+git add . //Agrega todos los archivos
+
+Dejar un comentario de los cambios:
+git commit -m "mensaje" 
+
+Enviar los cambios al repositorio remoto:
+git push origin master/main 
+
+Seguimiento del estado de los archivos:
+git status
+
+En caso de haber cambios en los archivos por otras personas, desde el repositorio remoto:
+git pull // Descarga los cambios en el repositorio local
+
+Clonar un repositorio (remoto):
+git clone https://github.com/LuDev01/"Nombre del repositorio a clonar.git
