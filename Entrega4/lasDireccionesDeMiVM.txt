@@ -1,0 +1,7 @@
+1. IP privada=192.168.2.46
+IP Publica =142.115.38.122
+
+2. Direccion MAC= 08.00.27.66.3c.dc
+
+3.Es diferente a la IP Publica y privada de nuestra maquina host?
+Si, la direccion MAC sirve para identificar un dispositivo en una red local, mientras que las direcciones IP publica y privada se utilizan para identificar un dispositivo en internet y en una red local, respectivamente
